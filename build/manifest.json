@@ -1,0 +1,30 @@
+{
+  "short_name": "AutoMsg",
+  "name": "AutoMessageApp - AI Messaging",
+  "icons": [
+    {
+      "src": "/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#007bff",
+  "description": "AI-powered messaging app supporting Unique ID messaging.",
+  "shortcuts": [
+    {
+      "name": "Compose",
+      "short_name": "Compose",
+      "description": "Generate and send AI messages",
+      "url": "/compose",
+      "icons": [{ "src": "/logo192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
