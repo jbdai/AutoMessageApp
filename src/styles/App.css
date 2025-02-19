@@ -1,0 +1,27 @@
+.profile-management {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.profile-list {
+  margin-top: 10px;
+}
+
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-add {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.profile-add input {
+  flex-grow: 1;
+  padding: 5px;
+}

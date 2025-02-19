@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaMoon, FaSun, FaBell } from "react-icons/fa";
-import { db, collection, query, where, getDocs } from "../firebase"; // Fix Firebase import
+import { db } from "../services/firebase";
+import { collection, query, where, getDocs } from "firebase/firestore";
 
 function TitleBar() {
     const [darkMode, setDarkMode] = useState(false);
